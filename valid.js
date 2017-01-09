@@ -1,5 +1,5 @@
 function fun(){
-   document.getElementById("content").innerHTML="<div class='panel-footer bg-2 text-center'>"
+   document.getElementById("content").innerHTML="<div class='panel-footer bg-2 text-center' style='LINE-HEIGHT:18px;'>"
       +"<h3>Where to find us?</h3><br>"
       +"<p>Contact us :</p>"
       +"<br>&#9742;:99XXXXXXXX<br>"
