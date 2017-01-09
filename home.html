@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tours & Travel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="mystyle1.css">
+  
+</head>
+<body onload="fun1()">
+<ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+  <li><a data-toggle="tab" href="#menu1">North India</a></li>
+  <li><a data-toggle="tab" href="#menu2">South India</a></li>
+  <li><a data-toggle="tab" href="#menu3">West India</a></li>
+  <li><a data-toggle="tab" href="#menu4">East India</a></li>
+  <li style="float:right"><a data-toggle="tab" href="#register">Register</a></li>
+  <li style="float:right"><a data-toggle="tab" href="#home" onclick="document.getElementById('id01').style.display='block'">Login</a></li>
+  
+</ul>
+
+<div class="tab-content">
+      <div id="home" class="tab-pane bg-1 fade in active">
+      <div class="container text-center">
+        <h3>Yatra Tours & Travel</h3>
+        <img src="one.jpg" class="img-circle" alt="Bird" width="350" height="350">
+        <h3>Dream. Explore. Discover.</h3>
+        
+        
+   <div id="id01" class="modal" style="color:black;">
+  
+  <form class="modal-content">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="login.png" class="img-circle" alt="Avatar" class="avatar">
+    </div>
+
+    <div >
+      <label align="center"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required><br>
+
+      <label align="center"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required><br>
+        
+      <button class="button" type="button">Login</button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div>
+      <button type="button" class="button" onclick="document.getElementById('id01').style.display='none'">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+      </div>
+      </div>
+  </div>
+  <div id="content"></div>
+   
+
+</body>
+</html>
